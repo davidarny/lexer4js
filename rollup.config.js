@@ -4,18 +4,18 @@ import resolve from "@rollup/plugin-node-resolve";
 import sourcemaps from "rollup-plugin-sourcemaps";
 import typescript from "rollup-plugin-typescript2";
 
-import package from "./package.json";
+import package_ from "./package.json";
 
 export default {
   input: "src/index.ts",
   output: [
     {
-      file: package.main,
+      file: package_.main,
       format: "cjs",
       sourcemap: true,
     },
     {
-      file: package.module,
+      file: package_.module,
       format: "es",
       sourcemap: true,
     },
@@ -24,5 +24,5 @@ export default {
     include: "src/**",
   },
   plugins: [json(), typescript(), commonjs(), resolve(), sourcemaps()],
-  external: [...Object.keys(package.dependencies || {}), ...Object.keys(package.peerDependencies || {})],
+  external: [...Object.keys(package_.dependencies || {}), ...Object.keys(package_.peerDependencies || {})],
 };
