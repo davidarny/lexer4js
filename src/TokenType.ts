@@ -1,0 +1,70 @@
+enum TokenType {
+  BLOCK_COMMENT,
+  BLOCK_COMMENT_UNTERMINATED,
+  LINE_COMMENT,
+  WHITE_SPACE,
+  TAB,
+  NEW_LINE,
+  CLOSING_BRACE,
+  OPENING_BRACE,
+  OPENING_CURLY_BRACE,
+  CLOSING_CURLY_BRACE,
+  SCIENTIFIC_LITERAL,
+  OCTAL_LITERAL,
+  DOUBLE_LITERAL,
+  FLOAT_LITERAL,
+  INT_LITERAL,
+  HEX_LITERAL,
+  BINARY_LITERAL,
+  ADDITION,
+  SUBTRACTION,
+  MULTIPLICATION,
+  DIVISION,
+  XOR,
+  POINT,
+  EQUALS,
+  NOT_EQUALS,
+  ASSIGNMENT,
+  MORE,
+  LESS,
+  STATIC,
+  PUBLIC,
+  PRIVATE,
+  INT,
+  DOUBLE,
+  FLOAT,
+  VOID,
+  FALSE,
+  TRUE,
+  NULL,
+  RETURN,
+  NEW,
+  CLASS,
+  IF,
+  WHILE,
+  FOR,
+  ELSE,
+  SEMICOLON,
+  COLON,
+  COMMA,
+  IDENTIFIER,
+  OPENING_SQUARE_BRACE,
+  CLOSING_SQUARE_BRACE,
+  VAR,
+  FINAL,
+  MULTILINE_STRING_LITERAL,
+  STRING_LITERAL,
+  CHAR_LITERAL,
+}
+
+export function isTokenAuxiliary(token: TokenType): boolean {
+  return (
+    token == TokenType.BLOCK_COMMENT ||
+    token == TokenType.LINE_COMMENT ||
+    token == TokenType.NEW_LINE ||
+    token == TokenType.TAB ||
+    token == TokenType.WHITE_SPACE
+  );
+}
+
+export default TokenType;
