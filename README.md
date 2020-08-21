@@ -4,6 +4,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/DavidArutiunian/lexer4js.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DavidArutiunian/lexer4js.svg)
 [![TLOC](https://tokei.rs/b1/github/DavidArutiunian/lexer4js)](https://github.com/DavidArutiunian/lexer4js)
+![Node.js CI](https://github.com/DavidArutiunian/lexer4js/workflows/Node.js%20CI/badge.svg)
 
 ## Getting Started
 
