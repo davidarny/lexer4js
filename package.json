@@ -16,7 +16,8 @@
     "pretty": "prettier --write src/**",
     "lint": "eslint . --ext .ts",
     "test": "jest --coverage",
-    "test:watch": "jest --coverage --watch"
+    "test:watch": "jest --coverage --watch",
+    "test:ci": "jest --coverage --ci"
   },
   "dependencies": {},
   "devDependencies": {
