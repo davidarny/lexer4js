@@ -17,7 +17,7 @@
     "lint": "eslint . --ext .ts",
     "test": "jest --coverage",
     "test:watch": "jest --coverage --watch",
-    "test:ci": "jest --coverage --ci"
+    "test:ci": "jest --ci"
   },
   "dependencies": {},
   "devDependencies": {
