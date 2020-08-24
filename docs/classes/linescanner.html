@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>StateType | lexer4js</title>
+	<title>LineScanner | lexer4js</title>
 	<meta name="description" content="Documentation for lexer4js">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
@@ -2722,37 +2722,40 @@ img {
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
-		<li class="current tsd-kind-enum">
-			<a href="statetype.html" class="tsd-kind-icon">State<wbr>Type</a>
+		<li class=" tsd-kind-enum">
+			<a href="../enums/statetype.html" class="tsd-kind-icon">State<wbr>Type</a>
+		</li>
+		<li class=" tsd-kind-enum">
+			<a href="../enums/tokentype.html" class="tsd-kind-icon">Token<wbr>Type</a>
+		</li>
+		<li class=" tsd-kind-class">
+			<a href="analyzerexception.html" class="tsd-kind-icon">Analyzer<wbr>Exception</a>
+		</li>
+		<li class=" tsd-kind-class">
+			<a href="lexer.html" class="tsd-kind-icon">Lexer</a>
+		</li>
+		<li class="current tsd-kind-class">
+			<a href="linescanner.html" class="tsd-kind-icon">Line<wbr>Scanner</a>
 			<ul>
-				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-					<a href="statetype.html#initial" class="tsd-kind-icon">INITIAL</a>
+				<li class=" tsd-kind-constructor tsd-parent-kind-class">
+					<a href="linescanner.html#constructor" class="tsd-kind-icon">constructor</a>
 				</li>
-				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-					<a href="statetype.html#newline" class="tsd-kind-icon">NEWLINE</a>
+				<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a href="linescanner.html#lines" class="tsd-kind-icon">lines</a>
 				</li>
-				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-					<a href="statetype.html#no_bound" class="tsd-kind-icon">NO_<wbr>BOUND</a>
+				<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a href="linescanner.html#position" class="tsd-kind-icon">position</a>
 				</li>
-				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-					<a href="statetype.html#word_bound" class="tsd-kind-icon">WORD_<wbr>BOUND</a>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="linescanner.html#hasnextline" class="tsd-kind-icon">has<wbr>Next<wbr>Line</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="linescanner.html#readnextline" class="tsd-kind-icon">read<wbr>Next<wbr>Line</a>
 				</li>
 			</ul>
 		</li>
-		<li class=" tsd-kind-enum">
-			<a href="tokentype.html" class="tsd-kind-icon">Token<wbr>Type</a>
-		</li>
 		<li class=" tsd-kind-class">
-			<a href="../classes/analyzerexception.html" class="tsd-kind-icon">Analyzer<wbr>Exception</a>
-		</li>
-		<li class=" tsd-kind-class">
-			<a href="../classes/lexer.html" class="tsd-kind-icon">Lexer</a>
-		</li>
-		<li class=" tsd-kind-class">
-			<a href="../classes/linescanner.html" class="tsd-kind-icon">Line<wbr>Scanner</a>
-		</li>
-		<li class=" tsd-kind-class">
-			<a href="../classes/token.html" class="tsd-kind-icon">Token</a>
+			<a href="token.html" class="tsd-kind-icon">Token</a>
 		</li>
 		<li class=" tsd-kind-interface">
 			<a href="../interfaces/closable.html" class="tsd-kind-icon">Closable</a>
@@ -2779,63 +2782,125 @@ img {
 </nav>
 <div class="container container-main">
 	<div class="content-wrap">
+		<section class="tsd-panel tsd-hierarchy">
+			<h3>Hierarchy</h3>
+			<ul class="tsd-hierarchy">
+				<li>
+					<span class="target">LineScanner</span>
+				</li>
+			</ul>
+		</section>
 		<section class="tsd-panel-group tsd-index-group">
 			<h2>Index</h2>
 			<section class="tsd-panel tsd-index-panel">
 				<div class="tsd-index-content">
 					<section class="tsd-index-section ">
-						<h3>Enumeration members</h3>
+						<h3>Constructors</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="statetype.html#initial" class="tsd-kind-icon">INITIAL</a></li>
-							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="statetype.html#newline" class="tsd-kind-icon">NEWLINE</a></li>
-							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="statetype.html#no_bound" class="tsd-kind-icon">NO_<wbr>BOUND</a></li>
-							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="statetype.html#word_bound" class="tsd-kind-icon">WORD_<wbr>BOUND</a></li>
+							<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="linescanner.html#constructor" class="tsd-kind-icon">constructor</a></li>
+						</ul>
+					</section>
+					<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+						<h3>Properties</h3>
+						<ul class="tsd-index-list">
+							<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="linescanner.html#lines" class="tsd-kind-icon">lines</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="linescanner.html#position" class="tsd-kind-icon">position</a></li>
+						</ul>
+					</section>
+					<section class="tsd-index-section ">
+						<h3>Methods</h3>
+						<ul class="tsd-index-list">
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="linescanner.html#hasnextline" class="tsd-kind-icon">has<wbr>Next<wbr>Line</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="linescanner.html#readnextline" class="tsd-kind-icon">read<wbr>Next<wbr>Line</a></li>
 						</ul>
 					</section>
 				</div>
 			</section>
 		</section>
 		<section class="tsd-panel-group tsd-member-group ">
-			<h2>Enumeration members</h2>
-			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-				<a name="initial" class="tsd-anchor"></a>
-				<h3>INITIAL</h3>
-				<div class="tsd-signature tsd-kind-icon">INITIAL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;INITIAL&quot;</span></div>
+			<h2>Constructors</h2>
+			<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+				<a name="constructor" class="tsd-anchor"></a>
+				<h3>constructor</h3>
+				<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">new <wbr>Line<wbr>Scanner<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="linescanner.html" class="tsd-signature-type">LineScanner</a></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/6ddf6b8/src/Scanner.ts#L3">src/Scanner.ts:3</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>source: <span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <a href="linescanner.html" class="tsd-signature-type">LineScanner</a></h4>
+					</li>
+				</ul>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
+			<h2>Properties</h2>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+				<a name="lines" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> lines</h3>
+				<div class="tsd-signature tsd-kind-icon">lines<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = []</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/6ddf6b8/src/WordState.ts#L5">src/WordState.ts:5</a></li>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/6ddf6b8/src/Scanner.ts#L3">src/Scanner.ts:3</a></li>
 					</ul>
 				</aside>
 			</section>
-			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-				<a name="newline" class="tsd-anchor"></a>
-				<h3>NEWLINE</h3>
-				<div class="tsd-signature tsd-kind-icon">NEWLINE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;NEWLINE&quot;</span></div>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+				<a name="position" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> position</h3>
+				<div class="tsd-signature tsd-kind-icon">position<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 0</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/6ddf6b8/src/WordState.ts#L8">src/WordState.ts:8</a></li>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/6ddf6b8/src/Scanner.ts#L2">src/Scanner.ts:2</a></li>
 					</ul>
 				</aside>
 			</section>
-			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-				<a name="no_bound" class="tsd-anchor"></a>
-				<h3>NO_<wbr>BOUND</h3>
-				<div class="tsd-signature tsd-kind-icon">NO_<wbr>BOUND<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;NO_BOUND&quot;</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/6ddf6b8/src/WordState.ts#L7">src/WordState.ts:7</a></li>
-					</ul>
-				</aside>
+		</section>
+		<section class="tsd-panel-group tsd-member-group ">
+			<h2>Methods</h2>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="hasnextline" class="tsd-anchor"></a>
+				<h3>has<wbr>Next<wbr>Line</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">has<wbr>Next<wbr>Line<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/6ddf6b8/src/Scanner.ts#L9">src/Scanner.ts:9</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+					</li>
+				</ul>
 			</section>
-			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-				<a name="word_bound" class="tsd-anchor"></a>
-				<h3>WORD_<wbr>BOUND</h3>
-				<div class="tsd-signature tsd-kind-icon">WORD_<wbr>BOUND<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;WORD_BOUND&quot;</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/6ddf6b8/src/WordState.ts#L6">src/WordState.ts:6</a></li>
-					</ul>
-				</aside>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="readnextline" class="tsd-anchor"></a>
+				<h3>read<wbr>Next<wbr>Line</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">read<wbr>Next<wbr>Line<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/6ddf6b8/src/Scanner.ts#L13">src/Scanner.ts:13</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+					</li>
+				</ul>
 			</section>
 		</section>
 		<footer class="with-border-bottom">
