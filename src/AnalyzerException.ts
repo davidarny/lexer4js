@@ -4,19 +4,20 @@ import WordStateFactory, { WordState } from "./WordState";
 const WordState = WordStateFactory();
 
 export class AnalyzerException extends Error {
-  public message: string;
-
   constructor(source: string, position: number) {
-    super(source);
+    super("");
 
     const substring = source
-      .slice(position - this.getStartOffsetIndex(source, position), position + this.getEndOffsetIndex(source, position))
+      .slice(
+        position - AnalyzerException.getStartOffsetIndex(source, position),
+        position + AnalyzerException.getEndOffsetIndex(source, position)
+      )
       .trim();
 
     this.message = `You have an error in your syntax near ${substring}`;
   }
 
-  private getStartOffsetIndex(source: string, position: number): number {
+  private static getStartOffsetIndex(source: string, position: number): number {
     let index = 0;
     let state: Nullable<WordState> = WordState.INITIAL;
 
@@ -36,7 +37,7 @@ export class AnalyzerException extends Error {
     return index;
   }
 
-  private getEndOffsetIndex(source: string, position: number): number {
+  private static getEndOffsetIndex(source: string, position: number): number {
     let index = 0;
     let state = WordState.INITIAL;
 

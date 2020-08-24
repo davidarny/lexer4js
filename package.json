@@ -12,6 +12,7 @@
     "prebuild": "rimraf dist",
     "build": "rollup -c",
     "start": "rollup -cw",
+    "cli": "node bin",
     "docs": "typedoc --out docs --target es6 --theme minimal --mode file src",
     "pretty": "prettier --write src/**",
     "lint": "eslint . --ext .ts",
@@ -19,7 +20,9 @@
     "test:watch": "jest --coverage --watch",
     "test:ci": "jest --ci"
   },
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^15.0.0",
     "@rollup/plugin-json": "^4.1.0",
