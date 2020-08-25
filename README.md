@@ -36,16 +36,24 @@ Windows:
 $ mklink input.txt test/test.txt
 ```
 
-### 🚀 Run lexer
+### 🚀 Using lexer
 
-Pass the file with code to lexer
+Pass the source code to the `tokenize(source)` method like this
 
-```bash
-$ yarn build
-$ yarn exec input.txt
+```js
+import { Lexer } from "lexer4js";
+
+const source = fs.readFileSync("source.txt", "utf8");
+
+const lexer = new Lexer();
+const tokens = lexer.tokenize(source);
 ```
 
-You should get something like this
+You would get list of tokens. Calling `.toString()` method of `Token` will result in such output
+
+```js
+tokens.forEach((token) => console.log(token.toString()));
+```
 
 ```
 CLASS 'class' [L1:0]
