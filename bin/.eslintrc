@@ -1,5 +1,9 @@
 {
   "env": {
     "node": true
+  },
+  "rules": {
+    "security/detect-non-literal-fs-filename": "off",
+    "@typescript-eslint/no-var-requires": "off"
   }
 }

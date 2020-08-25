@@ -11,7 +11,7 @@
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\bin\\index.js",
       "outFiles": ["${workspaceFolder}/dist/**/*.js"],
-      "args": ["test/test.java"]
+      "args": ["test/actual.java"]
     }
   ]
 }
