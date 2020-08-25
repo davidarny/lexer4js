@@ -1,15 +1,29 @@
 {
   "name": "lexer4js",
+  "description": "Simple JavaScript lexer",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "author": "arutiunian666@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidArutiunian/lexer4js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidArutiunian/lexer4js/issues"
+  },
+  "homepage": "https://github.com/DavidArutiunian/lexer4js#lexer4js",
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "lexer"
   ],
   "types": "dist/index.d.ts",
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
+    "prepublish": "rimraf dist && rollup -c",
     "build": "rollup -c",
     "start": "rollup -cw",
     "cli": "node bin",
