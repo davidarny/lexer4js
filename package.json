@@ -1,7 +1,7 @@
 {
   "name": "lexer4js",
   "description": "Simple JavaScript lexer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "author": "arutiunian666@gmail.com",
