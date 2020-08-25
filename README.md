@@ -12,31 +12,7 @@
 [![TLOC](https://tokei.rs/b1/github/DavidArutiunian/lexer4js)](https://github.com/DavidArutiunian/lexer4js)
 ![Node.js CI](https://github.com/DavidArutiunian/lexer4js/workflows/Node.js%20CI/badge.svg)
 
-## Getting Started
-
-### 📃 Create an input file with some code
-
-You can find code example in `test/test.txt`
-
-```bash
-$ cat test/test.txt > input.txt
-```
-
-Or you can link the test file
-
-Linux:
-
-```bash
-$ ln -s test/test.txt input.txt
-```
-
-Windows:
-
-```cmd
-$ mklink input.txt test/test.txt
-```
-
-### 🚀 Using lexer
+## 🚀 Using lexer
 
 Pass the source code to the `tokenize(source)` method like this
 
