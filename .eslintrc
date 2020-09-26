@@ -21,6 +21,7 @@
     "security/detect-object-injection": "off",
     "simple-import-sort/sort": "error",
     "sort-imports": "off",
-    "import/order": "off"
+    "import/order": "off",
+    "import/no-named-as-default": "off"
   }
 }

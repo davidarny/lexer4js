@@ -1,4 +1,5 @@
 import { AnalyzerException } from "./AnalyzerException";
+import LexerToken from "./LexerToken";
 import Nullable from "./Nullable";
 import LineScanner from "./Scanner";
 import Token from "./Token";
@@ -6,7 +7,7 @@ import TokenType from "./TokenType";
 
 export default class Lexer {
   private regex = new Map<TokenType, string>();
-  private result: Token[] = [];
+  private result: LexerToken[] = [];
 
   constructor() {
     this.fillTokenMap();
@@ -14,7 +15,7 @@ export default class Lexer {
 
   public tokenize(source: string): Token[] {
     let position = 0;
-    let token: Nullable<Token> = null;
+    let token: Nullable<LexerToken> = null;
     do {
       token = this.getNextToken(source, position);
       // eslint-disable-next-line security/detect-possible-timing-attacks
@@ -33,7 +34,7 @@ export default class Lexer {
     return this.result.filter((token) => token.isNotAuxiliary);
   }
 
-  private getNextToken(source: string, from: number): Nullable<Token> {
+  private getNextToken(source: string, from: number): Nullable<LexerToken> {
     if (from < 0 || from >= source.length) {
       throw new Error("Illegal index in the input stream");
     }
@@ -49,7 +50,7 @@ export default class Lexer {
         const literal = match[1];
         const line = this.getLineNumber(source, from);
         const position = this.getPositionInLine(source, line, from);
-        return new Token(from + literal.length, literal, type, line, position);
+        return new LexerToken(from + literal.length, literal, type, line, position);
       }
     }
     return null;
