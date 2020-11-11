@@ -9,9 +9,8 @@
     "declaration": true,
     "declarationDir": "./dist",
     "outDir": "./dist",
-    "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "incremental": true,
+    "esModuleInterop": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
