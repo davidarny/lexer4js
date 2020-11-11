@@ -9,6 +9,8 @@ class Foo {
     private int octal = 0737;
     private int binary = 0b01001001110;
 
+    private boolean flag = false;
+
     private String multiline = """
         Hello, World!
         Who I am?

@@ -33,6 +33,7 @@ enum TokenType {
   INT = "INT",
   DOUBLE = "DOUBLE",
   FLOAT = "FLOAT",
+  BOOLEAN = "BOOLEAN",
   VOID = "VOID",
   FALSE = "FALSE",
   TRUE = "TRUE",

@@ -95,6 +95,7 @@ export default class Lexer {
     this.regex.set(TokenType.INT, "\\b(int)\\b.*");
     this.regex.set(TokenType.DOUBLE, "\\b(double)\\b.*");
     this.regex.set(TokenType.FLOAT, "\\b(float)\\b.*");
+    this.regex.set(TokenType.BOOLEAN, "\\b(boolean)\\b.*");
     this.regex.set(TokenType.TAB, "(\\t).*");
     this.regex.set(TokenType.NEW_LINE, "(\\n).*");
     this.regex.set(TokenType.PUBLIC, "\\b(public)\\b.*");
