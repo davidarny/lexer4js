@@ -2,7 +2,7 @@ class Foo {
     private double big = 3.2e+23; // Some sort of big value
     private double small = -4.70e-9; // Some sort of small value
 
-    private String message = "FooBarBaz";
+    private string message = "FooBarBaz";
     private char newline = '\n';
 
     private int hex = 0x0A0B0C;
@@ -11,7 +11,7 @@ class Foo {
 
     private boolean flag = false;
 
-    private String multiline = """
+    private string multiline = """
         Hello, World!
         Who I am?
     """;
@@ -20,7 +20,7 @@ class Foo {
      * Multiline comment
      * Starts the program
      */
-    public void main(String[] args) {
+    public void main(string[] args) {
         int size = 3;
         int [size] array = { 1, 2, 3 };
         int index = 0;
@@ -35,6 +35,9 @@ class Foo {
             println(message, num * coefficient, newline);
         }
         var secret = hex ^ octal ^ binary;
+        if (flag && size || secret) {
+          println(secret ^ flag);
+        }
         println(secret);
     }
 }
