@@ -119,9 +119,9 @@
 <span class="hljs-keyword">const</span> tokens = lexer.tokenize(source);</code></pre>
 			<p>You would get list of tokens. Calling <code>.toString()</code> method of <code>Token</code> will result in such output</p>
 			<pre><code class="language-js">tokens.forEach(<span class="hljs-function">(<span class="hljs-params">token</span>) =&gt;</span> <span class="hljs-built_in">console</span>.log(token.toString()));</code></pre>
-			<pre><code><span class="hljs-keyword">CLASS</span> <span class="hljs-string">&#x27;class&#x27;</span> [L1:<span class="hljs-number">0</span>]
-IDENTIFIER <span class="hljs-string">&#x27;Foo&#x27;</span> [L1:<span class="hljs-number">6</span>]
-OPENING_CURLY_BRACE <span class="hljs-string">&#x27;{&#x27;</span> [L1:<span class="hljs-number">10</span>]
+			<pre><code>CLASS &#x27;class&#x27; [L1:0]
+IDENTIFIER &#x27;Foo&#x27; [L1:6]
+OPENING_CURLY_BRACE &#x27;{&#x27; [L1:10]
 <span class="hljs-keyword">PRIVATE</span> <span class="hljs-string">&#x27;private&#x27;</span> [L2:<span class="hljs-number">4</span>]
 DOUBLE <span class="hljs-string">&#x27;double&#x27;</span> [L2:<span class="hljs-number">12</span>]
 IDENTIFIER <span class="hljs-string">&#x27;big&#x27;</span> [L2:<span class="hljs-number">19</span>]
@@ -136,16 +136,16 @@ SUBTRACTION <span class="hljs-string">&#x27;-&#x27;</span> [L3:<span class="hljs
 SCIENTIFIC_LITERAL <span class="hljs-string">&#x27;4.70e-9&#x27;</span> [L3:<span class="hljs-number">28</span>]
 SEMICOLON <span class="hljs-string">&#x27;;&#x27;</span> [L3:<span class="hljs-number">35</span>]
 <span class="hljs-keyword">PRIVATE</span> <span class="hljs-string">&#x27;private&#x27;</span> [L5:<span class="hljs-number">4</span>]
-IDENTIFIER <span class="hljs-string">&#x27;String&#x27;</span> [L5:<span class="hljs-number">12</span>]
+<span class="hljs-keyword">STRING</span> <span class="hljs-string">&#x27;string&#x27;</span> [L5:<span class="hljs-number">12</span>]
 IDENTIFIER <span class="hljs-string">&#x27;message&#x27;</span> [L5:<span class="hljs-number">19</span>]
 ASSIGNMENT <span class="hljs-string">&#x27;=&#x27;</span> [L5:<span class="hljs-number">27</span>]
-STRING_LITERAL <span class="hljs-string">&#x27;&quot;FooBarBaz&quot;&#x27;</span> [L5:<span class="hljs-number">29</span>]
+STRING_LITERAL <span class="hljs-string">&#x27;\\&quot;FooBarBaz\\&quot;&#x27;</span> [L5:<span class="hljs-number">29</span>]
 SEMICOLON <span class="hljs-string">&#x27;;&#x27;</span> [L5:<span class="hljs-number">40</span>]
 <span class="hljs-keyword">PRIVATE</span> <span class="hljs-string">&#x27;private&#x27;</span> [L6:<span class="hljs-number">4</span>]
-IDENTIFIER <span class="hljs-string">&#x27;char&#x27;</span> [L6:<span class="hljs-number">12</span>]
+CHAR <span class="hljs-string">&#x27;char&#x27;</span> [L6:<span class="hljs-number">12</span>]
 IDENTIFIER <span class="hljs-string">&#x27;newline&#x27;</span> [L6:<span class="hljs-number">17</span>]
 ASSIGNMENT <span class="hljs-string">&#x27;=&#x27;</span> [L6:<span class="hljs-number">25</span>]
-CHAR_LITERAL <span class="hljs-string">&#x27;&#x27;</span>\n<span class="hljs-string">&#x27;&#x27;</span> [L6:<span class="hljs-number">27</span>]
+CHAR_LITERAL <span class="hljs-string">&#x27;&#x27;</span>\\\\n<span class="hljs-string">&#x27;&#x27;</span> [L6:<span class="hljs-number">27</span>]
 SEMICOLON <span class="hljs-string">&#x27;;&#x27;</span> [L6:<span class="hljs-number">31</span>]
 <span class="hljs-keyword">PRIVATE</span> <span class="hljs-string">&#x27;private&#x27;</span> [L8:<span class="hljs-number">4</span>]
 INT <span class="hljs-string">&#x27;int&#x27;</span> [L8:<span class="hljs-number">12</span>]
@@ -166,25 +166,27 @@ ASSIGNMENT <span class="hljs-string">&#x27;=&#x27;</span> [L10:<span class="hljs
 BINARY_LITERAL <span class="hljs-string">&#x27;0b01001001110&#x27;</span> [L10:<span class="hljs-number">25</span>]
 SEMICOLON <span class="hljs-string">&#x27;;&#x27;</span> [L10:<span class="hljs-number">38</span>]
 <span class="hljs-keyword">PRIVATE</span> <span class="hljs-string">&#x27;private&#x27;</span> [L12:<span class="hljs-number">4</span>]
-BOOLEAN <span class="hljs-string">&#x27;boolean&#x27;</span> [L12:<span class="hljs-number">12</span>]
+<span class="hljs-keyword">BOOLEAN</span> <span class="hljs-string">&#x27;boolean&#x27;</span> [L12:<span class="hljs-number">12</span>]
 IDENTIFIER <span class="hljs-string">&#x27;flag&#x27;</span> [L12:<span class="hljs-number">20</span>]
 ASSIGNMENT <span class="hljs-string">&#x27;=&#x27;</span> [L12:<span class="hljs-number">25</span>]
-<span class="hljs-keyword">FALSE</span> <span class="hljs-string">&#x27;false&#x27;</span> [L12:<span class="hljs-number">27</span>]
+<span class="hljs-literal">FALSE</span> <span class="hljs-string">&#x27;false&#x27;</span> [L12:<span class="hljs-number">27</span>]
 SEMICOLON <span class="hljs-string">&#x27;;&#x27;</span> [L12:<span class="hljs-number">32</span>]
 <span class="hljs-keyword">PRIVATE</span> <span class="hljs-string">&#x27;private&#x27;</span> [L14:<span class="hljs-number">4</span>]
-IDENTIFIER <span class="hljs-string">&#x27;String&#x27;</span> [L14:<span class="hljs-number">12</span>]
+<span class="hljs-keyword">STRING</span> <span class="hljs-string">&#x27;string&#x27;</span> [L14:<span class="hljs-number">12</span>]
 IDENTIFIER <span class="hljs-string">&#x27;multiline&#x27;</span> [L14:<span class="hljs-number">19</span>]
 ASSIGNMENT <span class="hljs-string">&#x27;=&#x27;</span> [L14:<span class="hljs-number">29</span>]
-MULTILINE_STRING_LITERAL <span class="hljs-string">&#x27;&quot;&quot;&quot;
+STRING_LITERAL <span class="hljs-string">&#x27;\\&quot;\\&quot;&#x27;</span> [L14:<span class="hljs-number">31</span>]
+STRING_LITERAL <span class="hljs-string">&#x27;\\&quot;
         Hello, World!
         Who I am?
-    &quot;&quot;&quot;&#x27;</span> [L14:<span class="hljs-number">31</span>]
+    \\&quot;&#x27;</span> [L14:<span class="hljs-number">33</span>]
+STRING_LITERAL <span class="hljs-string">&#x27;\\&quot;\\&quot;&#x27;</span> [L17:<span class="hljs-number">5</span>]
 SEMICOLON <span class="hljs-string">&#x27;;&#x27;</span> [L17:<span class="hljs-number">7</span>]
 <span class="hljs-keyword">PUBLIC</span> <span class="hljs-string">&#x27;public&#x27;</span> [L23:<span class="hljs-number">4</span>]
 VOID <span class="hljs-string">&#x27;void&#x27;</span> [L23:<span class="hljs-number">11</span>]
 IDENTIFIER <span class="hljs-string">&#x27;main&#x27;</span> [L23:<span class="hljs-number">16</span>]
 OPENING_BRACE <span class="hljs-string">&#x27;(&#x27;</span> [L23:<span class="hljs-number">20</span>]
-IDENTIFIER <span class="hljs-string">&#x27;String&#x27;</span> [L23:<span class="hljs-number">21</span>]
+<span class="hljs-keyword">STRING</span> <span class="hljs-string">&#x27;string&#x27;</span> [L23:<span class="hljs-number">21</span>]
 OPENING_SQUARE_BRACE <span class="hljs-string">&#x27;[&#x27;</span> [L23:<span class="hljs-number">27</span>]
 CLOSING_SQUARE_BRACE <span class="hljs-string">&#x27;]&#x27;</span> [L23:<span class="hljs-number">28</span>]
 IDENTIFIER <span class="hljs-string">&#x27;args&#x27;</span> [L23:<span class="hljs-number">30</span>]
@@ -217,7 +219,7 @@ SEMICOLON <span class="hljs-string">&#x27;;&#x27;</span> [L26:<span class="hljs-
 FLOAT <span class="hljs-string">&#x27;float&#x27;</span> [L27:<span class="hljs-number">8</span>]
 IDENTIFIER <span class="hljs-string">&#x27;e&#x27;</span> [L27:<span class="hljs-number">14</span>]
 ASSIGNMENT <span class="hljs-string">&#x27;=&#x27;</span> [L27:<span class="hljs-number">16</span>]
-DOUBLE_LITERAL <span class="hljs-string">&#x27;2.73&#x27;</span> [L27:<span class="hljs-number">18</span>]
+FLOAT_LITERAL <span class="hljs-string">&#x27;2.73&#x27;</span> [L27:<span class="hljs-number">18</span>]
 SEMICOLON <span class="hljs-string">&#x27;;&#x27;</span> [L27:<span class="hljs-number">22</span>]
 <span class="hljs-keyword">WHILE</span> <span class="hljs-string">&#x27;while&#x27;</span> [L28:<span class="hljs-number">8</span>]
 OPENING_BRACE <span class="hljs-string">&#x27;(&#x27;</span> [L28:<span class="hljs-number">14</span>]
@@ -294,13 +296,30 @@ IDENTIFIER <span class="hljs-string">&#x27;octal&#x27;</span> [L37:<span class="
 <span class="hljs-keyword">XOR</span> <span class="hljs-string">&#x27;^&#x27;</span> [L37:<span class="hljs-number">33</span>]
 IDENTIFIER <span class="hljs-string">&#x27;binary&#x27;</span> [L37:<span class="hljs-number">35</span>]
 SEMICOLON <span class="hljs-string">&#x27;;&#x27;</span> [L37:<span class="hljs-number">41</span>]
-IDENTIFIER <span class="hljs-string">&#x27;println&#x27;</span> [L38:<span class="hljs-number">8</span>]
-OPENING_BRACE <span class="hljs-string">&#x27;(&#x27;</span> [L38:<span class="hljs-number">15</span>]
-IDENTIFIER <span class="hljs-string">&#x27;secret&#x27;</span> [L38:<span class="hljs-number">16</span>]
-CLOSING_BRACE <span class="hljs-string">&#x27;)&#x27;</span> [L38:<span class="hljs-number">22</span>]
-SEMICOLON <span class="hljs-string">&#x27;;&#x27;</span> [L38:<span class="hljs-number">23</span>]
-CLOSING_CURLY_BRACE <span class="hljs-string">&#x27;}&#x27;</span> [L39:<span class="hljs-number">4</span>]
-CLOSING_CURLY_BRACE <span class="hljs-string">&#x27;}&#x27;</span> [L40:<span class="hljs-number">0</span>]</code></pre>
+<span class="hljs-keyword">IF</span> <span class="hljs-string">&#x27;if&#x27;</span> [L38:<span class="hljs-number">8</span>]
+OPENING_BRACE <span class="hljs-string">&#x27;(&#x27;</span> [L38:<span class="hljs-number">11</span>]
+IDENTIFIER <span class="hljs-string">&#x27;flag&#x27;</span> [L38:<span class="hljs-number">12</span>]
+<span class="hljs-keyword">AND</span> <span class="hljs-string">&#x27;&amp;&amp;&#x27;</span> [L38:<span class="hljs-number">17</span>]
+IDENTIFIER <span class="hljs-string">&#x27;size&#x27;</span> [L38:<span class="hljs-number">20</span>]
+<span class="hljs-keyword">OR</span> <span class="hljs-string">&#x27;||&#x27;</span> [L38:<span class="hljs-number">25</span>]
+IDENTIFIER <span class="hljs-string">&#x27;secret&#x27;</span> [L38:<span class="hljs-number">28</span>]
+CLOSING_BRACE <span class="hljs-string">&#x27;)&#x27;</span> [L38:<span class="hljs-number">34</span>]
+OPENING_CURLY_BRACE <span class="hljs-string">&#x27;{&#x27;</span> [L38:<span class="hljs-number">36</span>]
+IDENTIFIER <span class="hljs-string">&#x27;println&#x27;</span> [L39:<span class="hljs-number">10</span>]
+OPENING_BRACE <span class="hljs-string">&#x27;(&#x27;</span> [L39:<span class="hljs-number">17</span>]
+IDENTIFIER <span class="hljs-string">&#x27;secret&#x27;</span> [L39:<span class="hljs-number">18</span>]
+<span class="hljs-keyword">XOR</span> <span class="hljs-string">&#x27;^&#x27;</span> [L39:<span class="hljs-number">25</span>]
+IDENTIFIER <span class="hljs-string">&#x27;flag&#x27;</span> [L39:<span class="hljs-number">27</span>]
+CLOSING_BRACE <span class="hljs-string">&#x27;)&#x27;</span> [L39:<span class="hljs-number">31</span>]
+SEMICOLON <span class="hljs-string">&#x27;;&#x27;</span> [L39:<span class="hljs-number">32</span>]
+CLOSING_CURLY_BRACE <span class="hljs-string">&#x27;}&#x27;</span> [L40:<span class="hljs-number">8</span>]
+IDENTIFIER <span class="hljs-string">&#x27;println&#x27;</span> [L41:<span class="hljs-number">8</span>]
+OPENING_BRACE <span class="hljs-string">&#x27;(&#x27;</span> [L41:<span class="hljs-number">15</span>]
+IDENTIFIER <span class="hljs-string">&#x27;secret&#x27;</span> [L41:<span class="hljs-number">16</span>]
+CLOSING_BRACE <span class="hljs-string">&#x27;)&#x27;</span> [L41:<span class="hljs-number">22</span>]
+SEMICOLON <span class="hljs-string">&#x27;;&#x27;</span> [L41:<span class="hljs-number">23</span>]
+CLOSING_CURLY_BRACE <span class="hljs-string">&#x27;}&#x27;</span> [L42:<span class="hljs-number">4</span>]
+CLOSING_CURLY_BRACE <span class="hljs-string">&#x27;}&#x27;</span> [L43:<span class="hljs-number">0</span>]<span class="hljs-string">&quot;</span></code></pre>
 		</div>
 		<div style="position:relative;"><a name="typedoc-main-index" class="tsd-anchor"></a></div>
 		<section class="tsd-panel-group tsd-index-group">
@@ -362,7 +381,7 @@ CLOSING_CURLY_BRACE <span class="hljs-string">&#x27;}&#x27;</span> [L40:<span cl
 				<div class="tsd-signature tsd-kind-icon">Nullable&lt;T&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/Nullable.ts:1</li>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f34bd40/src/Nullable.ts#L1">src/Nullable.ts:1</a></li>
 					</ul>
 				</aside>
 				<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -381,7 +400,7 @@ CLOSING_CURLY_BRACE <span class="hljs-string">&#x27;}&#x27;</span> [L40:<span cl
 				<div class="tsd-signature tsd-kind-icon">Word<wbr>State<span class="tsd-signature-symbol">:</span> <a href="interfaces/factoryreturntype.html" class="tsd-signature-type">FactoryReturnType</a><span class="tsd-signature-symbol"> = WordStateFactory()</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/AnalyzerException.ts:4</li>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f34bd40/src/AnalyzerException.ts#L4">src/AnalyzerException.ts:4</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -398,7 +417,7 @@ CLOSING_CURLY_BRACE <span class="hljs-string">&#x27;}&#x27;</span> [L40:<span cl
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/WordState.ts:28</li>
+								<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f34bd40/src/WordState.ts#L28">src/WordState.ts:28</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-returns-title">Returns <a href="interfaces/factoryreturntype.html" class="tsd-signature-type">FactoryReturnType</a></h4>
@@ -415,7 +434,7 @@ CLOSING_CURLY_BRACE <span class="hljs-string">&#x27;}&#x27;</span> [L40:<span cl
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/TokenType.ts:61</li>
+								<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f34bd40/src/TokenType.ts#L65">src/TokenType.ts:65</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-parameters-title">Parameters</h4>
