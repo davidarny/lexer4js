@@ -24,7 +24,8 @@ class Foo {
         int size = 3;
         int [size] array = { 1, 2, 3 };
         int index = 0;
-        float e = 2.73;
+        double e = 2.73;
+        double a = 3.1415926535;
         while (index != 0) {
             index = index - 1;
             var coefficient = big * small / hex;
