@@ -1,7 +1,7 @@
 {
   "name": "lexer4js",
   "description": "Simple JavaScript lexer",
-  "version": "1.2.4",
+  "version": "1.2.5-no-floats",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
