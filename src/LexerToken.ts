@@ -1,7 +1,7 @@
 import Token from "./Token";
 import TokenType, { isTokenAuxiliary } from "./TokenType";
 
-export default class LexerToken implements Token {
+export class LexerToken implements Token {
   constructor(
     private to: number,
     public literal: string,
@@ -26,3 +26,5 @@ export default class LexerToken implements Token {
     return this.type + " [L" + this.line + ":" + this.position + "]";
   }
 }
+
+export default LexerToken;

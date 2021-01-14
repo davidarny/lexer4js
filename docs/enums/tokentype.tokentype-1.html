@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>lexer4js | lexer4js</title>
+	<title>TokenType | lexer4js</title>
 	<meta name="description" content="Documentation for lexer4js">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
@@ -2646,7 +2646,7 @@ img {
 		<div class="container">
 			<div class="table-wrap">
 				<div class="table-cell">
-					<strong><a href="index.html">lexer4js</a></strong>
+					<strong><a href="../index.html">lexer4js</a></strong>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -2676,264 +2676,860 @@ img {
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
+		<li class=" tsd-kind-reference tsd-parent-kind-module">
+			<a href="../modules/tokentype.html#default" class="tsd-kind-icon">default</a>
+		</li>
+		<li class="current tsd-kind-enum tsd-parent-kind-module">
+			<a href="tokentype.tokentype-1.html" class="tsd-kind-icon">Token<wbr>Type</a>
+			<ul>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#addition" class="tsd-kind-icon">ADDITION</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#and" class="tsd-kind-icon">AND</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#assignment" class="tsd-kind-icon">ASSIGNMENT</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#binary_literal" class="tsd-kind-icon">BINARY_<wbr>LITERAL</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#block_comment" class="tsd-kind-icon">BLOCK_<wbr>COMMENT</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#block_comment_unterminated" class="tsd-kind-icon">BLOCK_<wbr>COMMENT_<wbr>UNTERMINATED</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#boolean" class="tsd-kind-icon">BOOLEAN</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#char" class="tsd-kind-icon">CHAR</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#char_literal" class="tsd-kind-icon">CHAR_<wbr>LITERAL</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#class" class="tsd-kind-icon">CLASS</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#closing_brace" class="tsd-kind-icon">CLOSING_<wbr>BRACE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#closing_curly_brace" class="tsd-kind-icon">CLOSING_<wbr>CURLY_<wbr>BRACE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#closing_square_brace" class="tsd-kind-icon">CLOSING_<wbr>SQUARE_<wbr>BRACE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#colon" class="tsd-kind-icon">COLON</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#comma" class="tsd-kind-icon">COMMA</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#division" class="tsd-kind-icon">DIVISION</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#double" class="tsd-kind-icon">DOUBLE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#double_literal" class="tsd-kind-icon">DOUBLE_<wbr>LITERAL</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#else" class="tsd-kind-icon">ELSE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#equals" class="tsd-kind-icon">EQUALS</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#false" class="tsd-kind-icon">FALSE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#final" class="tsd-kind-icon">FINAL</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#for" class="tsd-kind-icon">FOR</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#hex_literal" class="tsd-kind-icon">HEX_<wbr>LITERAL</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#identifier" class="tsd-kind-icon">IDENTIFIER</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#if" class="tsd-kind-icon">IF</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#int" class="tsd-kind-icon">INT</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#int_literal" class="tsd-kind-icon">INT_<wbr>LITERAL</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#less" class="tsd-kind-icon">LESS</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#line_comment" class="tsd-kind-icon">LINE_<wbr>COMMENT</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#more" class="tsd-kind-icon">MORE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#multiline_string_literal" class="tsd-kind-icon">MULTILINE_<wbr>STRING_<wbr>LITERAL</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#multiplication" class="tsd-kind-icon">MULTIPLICATION</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#new" class="tsd-kind-icon">NEW</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#new_line" class="tsd-kind-icon">NEW_<wbr>LINE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#not_equals" class="tsd-kind-icon">NOT_<wbr>EQUALS</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#null" class="tsd-kind-icon">NULL</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#octal_literal" class="tsd-kind-icon">OCTAL_<wbr>LITERAL</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#opening_brace" class="tsd-kind-icon">OPENING_<wbr>BRACE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#opening_curly_brace" class="tsd-kind-icon">OPENING_<wbr>CURLY_<wbr>BRACE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#opening_square_brace" class="tsd-kind-icon">OPENING_<wbr>SQUARE_<wbr>BRACE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#or" class="tsd-kind-icon">OR</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#point" class="tsd-kind-icon">POINT</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#private" class="tsd-kind-icon">PRIVATE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#public" class="tsd-kind-icon">PUBLIC</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#return" class="tsd-kind-icon">RETURN</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#scientific_literal" class="tsd-kind-icon">SCIENTIFIC_<wbr>LITERAL</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#semicolon" class="tsd-kind-icon">SEMICOLON</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#static" class="tsd-kind-icon">STATIC</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#string" class="tsd-kind-icon">STRING</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#string_literal" class="tsd-kind-icon">STRING_<wbr>LITERAL</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#subtraction" class="tsd-kind-icon">SUBTRACTION</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#tab" class="tsd-kind-icon">TAB</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#true" class="tsd-kind-icon">TRUE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#var" class="tsd-kind-icon">VAR</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#void" class="tsd-kind-icon">VOID</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#while" class="tsd-kind-icon">WHILE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#white_space" class="tsd-kind-icon">WHITE_<wbr>SPACE</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="tokentype.tokentype-1.html#xor" class="tsd-kind-icon">XOR</a>
+				</li>
+			</ul>
+		</li>
+		<li class=" tsd-kind-function tsd-parent-kind-module">
+			<a href="../modules/tokentype.html#istokenauxiliary" class="tsd-kind-icon">is<wbr>Token<wbr>Auxiliary</a>
+		</li>
 	</ul>
 </nav>
 <div class="container container-main">
 	<div class="content-wrap">
-		<div class="tsd-panel tsd-typography">
-			<a href="#lexer4js" id="lexer4js" style="color: inherit; text-decoration: none;">
-				<h1>Lexer4JS</h1>
-			</a>
-			<p><a href="https://www.npmjs.com/package/lexer4js"><img src="https://img.shields.io/npm/dt/lexer4js.svg" alt="npm"></a>
-				<a href="https://badge.fury.io/js/lexer4js"><img src="https://badge.fury.io/js/lexer4js.svg" alt="npm version"></a>
-				<a href="https://github.com/DavidArutiunian/lexer4js"><img src="https://img.shields.io/david/DavidArutiunian/lexer4js.svg" alt="David"></a>
-				<a href="https://www.npmjs.com/package/lexer4js"><img src="https://img.shields.io/bundlephobia/minzip/lexer4js.svg" alt="npm bundle size (minified + gzip)"></a>
-				<a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat" alt="code style: prettier"></a>
-				<img src="https://img.shields.io/snyk/vulnerabilities/github/DavidArutiunian/lexer4js.svg" alt="Snyk Vulnerabilities for GitHub Repo">
-				<img src="https://img.shields.io/github/languages/top/DavidArutiunian/lexer4js.svg" alt="GitHub top language">
-				<img src="https://img.shields.io/github/languages/code-size/DavidArutiunian/lexer4js.svg" alt="GitHub code size in bytes">
-				<img src="https://img.shields.io/github/last-commit/DavidArutiunian/lexer4js.svg" alt="GitHub last commit">
-				<a href="https://github.com/DavidArutiunian/lexer4js"><img src="https://tokei.rs/b1/github/DavidArutiunian/lexer4js" alt="TLOC"></a>
-				<img src="https://github.com/DavidArutiunian/lexer4js/workflows/Node.js%20CI/badge.svg" alt="Node.js CI">
-			<img src="https://github.com/DavidArutiunian/lexer4js/workflows/CodeQL/badge.svg" alt="CodeQL"></p>
-			<a href="#🚀-using-lexer" id="🚀-using-lexer" style="color: inherit; text-decoration: none;">
-				<h2>🚀 Using lexer</h2>
-			</a>
-			<p>Pass the source code to the <code>tokenize(source)</code> method like this</p>
-			<pre><code class="language-js"><span style="color: #AF00DB">import</span><span style="color: #000000"> { </span><span style="color: #001080">Lexer</span><span style="color: #000000"> } </span><span style="color: #AF00DB">from</span><span style="color: #000000"> </span><span style="color: #A31515">&quot;lexer4js&quot;</span><span style="color: #000000">;</span>
-
-<span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">source</span><span style="color: #000000"> = </span><span style="color: #001080">fs</span><span style="color: #000000">.</span><span style="color: #795E26">readFileSync</span><span style="color: #000000">(</span><span style="color: #A31515">&quot;source.txt&quot;</span><span style="color: #000000">, </span><span style="color: #A31515">&quot;utf8&quot;</span><span style="color: #000000">);</span>
-
-<span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">lexer</span><span style="color: #000000"> = </span><span style="color: #0000FF">new</span><span style="color: #000000"> </span><span style="color: #267F99">Lexer</span><span style="color: #000000">();</span>
-<span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">tokens</span><span style="color: #000000"> = </span><span style="color: #001080">lexer</span><span style="color: #000000">.</span><span style="color: #795E26">tokenize</span><span style="color: #000000">(</span><span style="color: #001080">source</span><span style="color: #000000">);</span>
-</code></pre>
-			<p>You would get list of tokens. Calling <code>.toString()</code> method of <code>Token</code> will result in such output</p>
-			<pre><code class="language-js"><span style="color: #001080">tokens</span><span style="color: #000000">.</span><span style="color: #795E26">forEach</span><span style="color: #000000">((</span><span style="color: #001080">token</span><span style="color: #000000">) </span><span style="color: #0000FF">=&gt;</span><span style="color: #000000"> </span><span style="color: #001080">console</span><span style="color: #000000">.</span><span style="color: #795E26">log</span><span style="color: #000000">(</span><span style="color: #001080">token</span><span style="color: #000000">.</span><span style="color: #795E26">toString</span><span style="color: #000000">()));</span>
-</code></pre>
-			<pre><code><span style="color: #0070C1">CLASS</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;class&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L1</span><span style="color: #000000">:</span><span style="color: #098658">0</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;Foo&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L1</span><span style="color: #000000">:</span><span style="color: #098658">6</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_CURLY_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;{&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L1</span><span style="color: #000000">:</span><span style="color: #098658">10</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">PRIVATE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;private&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L2</span><span style="color: #000000">:</span><span style="color: #098658">4</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">DOUBLE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;double&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L2</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;big&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L2</span><span style="color: #000000">:</span><span style="color: #098658">19</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L2</span><span style="color: #000000">:</span><span style="color: #098658">23</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SCIENTIFIC_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;3.2e+23&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L2</span><span style="color: #000000">:</span><span style="color: #098658">25</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L2</span><span style="color: #000000">:</span><span style="color: #098658">32</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">PRIVATE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;private&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L3</span><span style="color: #000000">:</span><span style="color: #098658">4</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">DOUBLE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;double&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L3</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;small&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L3</span><span style="color: #000000">:</span><span style="color: #098658">19</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L3</span><span style="color: #000000">:</span><span style="color: #098658">25</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SUBTRACTION</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;-&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L3</span><span style="color: #000000">:</span><span style="color: #098658">27</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SCIENTIFIC_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;4.70e-9&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L3</span><span style="color: #000000">:</span><span style="color: #098658">28</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L3</span><span style="color: #000000">:</span><span style="color: #098658">35</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">PRIVATE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;private&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L5</span><span style="color: #000000">:</span><span style="color: #098658">4</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">STRING</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;string&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L5</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;message&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L5</span><span style="color: #000000">:</span><span style="color: #098658">19</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L5</span><span style="color: #000000">:</span><span style="color: #098658">27</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">STRING_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;</span><span style="color: #EE0000">\\</span><span style="color: #A31515">&quot;FooBarBaz</span><span style="color: #EE0000">\\</span><span style="color: #A31515">&quot;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L5</span><span style="color: #000000">:</span><span style="color: #098658">29</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L5</span><span style="color: #000000">:</span><span style="color: #098658">40</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">PRIVATE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;private&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L6</span><span style="color: #000000">:</span><span style="color: #098658">4</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CHAR</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;char&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L6</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;newline&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L6</span><span style="color: #000000">:</span><span style="color: #098658">17</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L6</span><span style="color: #000000">:</span><span style="color: #098658">25</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CHAR_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;&#039;</span><span style="color: #000000">\\\\</span><span style="color: #001080">n</span><span style="color: #A31515">&#039;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L6</span><span style="color: #000000">:</span><span style="color: #098658">27</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L6</span><span style="color: #000000">:</span><span style="color: #098658">31</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">PRIVATE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;private&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L8</span><span style="color: #000000">:</span><span style="color: #098658">4</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">INT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;int&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L8</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;hex&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L8</span><span style="color: #000000">:</span><span style="color: #098658">16</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L8</span><span style="color: #000000">:</span><span style="color: #098658">20</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">HEX_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;0x0A0B0C&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L8</span><span style="color: #000000">:</span><span style="color: #098658">22</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L8</span><span style="color: #000000">:</span><span style="color: #098658">30</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">PRIVATE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;private&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L9</span><span style="color: #000000">:</span><span style="color: #098658">4</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">INT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;int&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L9</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;octal&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L9</span><span style="color: #000000">:</span><span style="color: #098658">16</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L9</span><span style="color: #000000">:</span><span style="color: #098658">22</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OCTAL_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;0737&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L9</span><span style="color: #000000">:</span><span style="color: #098658">24</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L9</span><span style="color: #000000">:</span><span style="color: #098658">28</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">PRIVATE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;private&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L10</span><span style="color: #000000">:</span><span style="color: #098658">4</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">INT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;int&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L10</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;binary&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L10</span><span style="color: #000000">:</span><span style="color: #098658">16</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L10</span><span style="color: #000000">:</span><span style="color: #098658">23</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">BINARY_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;0b01001001110&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L10</span><span style="color: #000000">:</span><span style="color: #098658">25</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L10</span><span style="color: #000000">:</span><span style="color: #098658">38</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">PRIVATE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;private&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L12</span><span style="color: #000000">:</span><span style="color: #098658">4</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">BOOLEAN</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;boolean&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L12</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;flag&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L12</span><span style="color: #000000">:</span><span style="color: #098658">20</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L12</span><span style="color: #000000">:</span><span style="color: #098658">25</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">FALSE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;false&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L12</span><span style="color: #000000">:</span><span style="color: #098658">27</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L12</span><span style="color: #000000">:</span><span style="color: #098658">32</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">PRIVATE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;private&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L14</span><span style="color: #000000">:</span><span style="color: #098658">4</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">STRING</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;string&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L14</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;multiline&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L14</span><span style="color: #000000">:</span><span style="color: #098658">19</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L14</span><span style="color: #000000">:</span><span style="color: #098658">29</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">STRING_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;</span><span style="color: #EE0000">\\</span><span style="color: #A31515">&quot;</span><span style="color: #EE0000">\\</span><span style="color: #A31515">&quot;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L14</span><span style="color: #000000">:</span><span style="color: #098658">31</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">STRING_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;</span><span style="color: #EE0000">\\</span><span style="color: #CD3131">&quot;</span>
-<span style="color: #000000">        </span><span style="color: #001080">Hello</span><span style="color: #000000">, </span><span style="color: #001080">World</span><span style="color: #000000">!</span>
-<span style="color: #000000">        </span><span style="color: #001080">Who</span><span style="color: #000000"> </span><span style="color: #0070C1">I</span><span style="color: #000000"> </span><span style="color: #001080">am</span><span style="color: #000000">?</span>
-<span style="color: #000000">    \\</span><span style="color: #A31515">&quot;&#039; [L14:33</span><span style="color: #CD3131">]</span>
-<span style="color: #0070C1">STRING_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;</span><span style="color: #EE0000">\\</span><span style="color: #A31515">&quot;</span><span style="color: #EE0000">\\</span><span style="color: #A31515">&quot;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L17</span><span style="color: #000000">:</span><span style="color: #098658">5</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L17</span><span style="color: #000000">:</span><span style="color: #098658">7</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">PUBLIC</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;public&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L23</span><span style="color: #000000">:</span><span style="color: #098658">4</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">VOID</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;void&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L23</span><span style="color: #000000">:</span><span style="color: #098658">11</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;main&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L23</span><span style="color: #000000">:</span><span style="color: #098658">16</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;(&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L23</span><span style="color: #000000">:</span><span style="color: #098658">20</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">STRING</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;string&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L23</span><span style="color: #000000">:</span><span style="color: #098658">21</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_SQUARE_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;[&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L23</span><span style="color: #000000">:</span><span style="color: #098658">27</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_SQUARE_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;]&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L23</span><span style="color: #000000">:</span><span style="color: #098658">28</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;args&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L23</span><span style="color: #000000">:</span><span style="color: #098658">30</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;)&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L23</span><span style="color: #000000">:</span><span style="color: #098658">34</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_CURLY_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;{&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L23</span><span style="color: #000000">:</span><span style="color: #098658">36</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">INT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;int&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L24</span><span style="color: #000000">:</span><span style="color: #098658">8</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;size&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L24</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L24</span><span style="color: #000000">:</span><span style="color: #098658">17</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">INT_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;3&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L24</span><span style="color: #000000">:</span><span style="color: #098658">19</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L24</span><span style="color: #000000">:</span><span style="color: #098658">20</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">INT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;int&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L25</span><span style="color: #000000">:</span><span style="color: #098658">8</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_SQUARE_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;[&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L25</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;size&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L25</span><span style="color: #000000">:</span><span style="color: #098658">13</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_SQUARE_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;]&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L25</span><span style="color: #000000">:</span><span style="color: #098658">17</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;array&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L25</span><span style="color: #000000">:</span><span style="color: #098658">19</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L25</span><span style="color: #000000">:</span><span style="color: #098658">25</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_CURLY_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;{&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L25</span><span style="color: #000000">:</span><span style="color: #098658">27</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">INT_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;1&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L25</span><span style="color: #000000">:</span><span style="color: #098658">29</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">COMMA</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;,&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L25</span><span style="color: #000000">:</span><span style="color: #098658">30</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">INT_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;2&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L25</span><span style="color: #000000">:</span><span style="color: #098658">32</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">COMMA</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;,&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L25</span><span style="color: #000000">:</span><span style="color: #098658">33</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">INT_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;3&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L25</span><span style="color: #000000">:</span><span style="color: #098658">35</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_CURLY_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;}&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L25</span><span style="color: #000000">:</span><span style="color: #098658">37</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L25</span><span style="color: #000000">:</span><span style="color: #098658">38</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">INT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;int&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L26</span><span style="color: #000000">:</span><span style="color: #098658">8</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;index&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L26</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L26</span><span style="color: #000000">:</span><span style="color: #098658">18</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">INT_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;0&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L26</span><span style="color: #000000">:</span><span style="color: #098658">20</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L26</span><span style="color: #000000">:</span><span style="color: #098658">21</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">FLOAT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;float&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L27</span><span style="color: #000000">:</span><span style="color: #098658">8</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;e&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L27</span><span style="color: #000000">:</span><span style="color: #098658">14</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L27</span><span style="color: #000000">:</span><span style="color: #098658">16</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">FLOAT_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;2.73&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L27</span><span style="color: #000000">:</span><span style="color: #098658">18</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L27</span><span style="color: #000000">:</span><span style="color: #098658">22</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">WHILE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;while&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L28</span><span style="color: #000000">:</span><span style="color: #098658">8</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;(&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L28</span><span style="color: #000000">:</span><span style="color: #098658">14</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;index&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L28</span><span style="color: #000000">:</span><span style="color: #098658">15</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">NOT_EQUALS</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;!=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L28</span><span style="color: #000000">:</span><span style="color: #098658">21</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">INT_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;0&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L28</span><span style="color: #000000">:</span><span style="color: #098658">24</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;)&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L28</span><span style="color: #000000">:</span><span style="color: #098658">25</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_CURLY_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;{&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L28</span><span style="color: #000000">:</span><span style="color: #098658">27</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;index&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L29</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L29</span><span style="color: #000000">:</span><span style="color: #098658">18</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;index&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L29</span><span style="color: #000000">:</span><span style="color: #098658">20</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SUBTRACTION</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;-&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L29</span><span style="color: #000000">:</span><span style="color: #098658">26</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">INT_LITERAL</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;1&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L29</span><span style="color: #000000">:</span><span style="color: #098658">28</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L29</span><span style="color: #000000">:</span><span style="color: #098658">29</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;var&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L30</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;coefficient&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L30</span><span style="color: #000000">:</span><span style="color: #098658">16</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L30</span><span style="color: #000000">:</span><span style="color: #098658">28</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;big&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L30</span><span style="color: #000000">:</span><span style="color: #098658">30</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">MULTIPLICATION</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;*&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L30</span><span style="color: #000000">:</span><span style="color: #098658">34</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;small&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L30</span><span style="color: #000000">:</span><span style="color: #098658">36</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">DIVISION</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;/&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L30</span><span style="color: #000000">:</span><span style="color: #098658">42</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;hex&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L30</span><span style="color: #000000">:</span><span style="color: #098658">44</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L30</span><span style="color: #000000">:</span><span style="color: #098658">47</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;println&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L31</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;(&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L31</span><span style="color: #000000">:</span><span style="color: #098658">19</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;message&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L31</span><span style="color: #000000">:</span><span style="color: #098658">20</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">COMMA</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;,&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L31</span><span style="color: #000000">:</span><span style="color: #098658">27</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;array&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L31</span><span style="color: #000000">:</span><span style="color: #098658">29</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_SQUARE_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;[&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L31</span><span style="color: #000000">:</span><span style="color: #098658">34</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;index&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L31</span><span style="color: #000000">:</span><span style="color: #098658">35</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_SQUARE_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;]&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L31</span><span style="color: #000000">:</span><span style="color: #098658">40</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">MULTIPLICATION</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;*&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L31</span><span style="color: #000000">:</span><span style="color: #098658">42</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;coefficient&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L31</span><span style="color: #000000">:</span><span style="color: #098658">44</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">COMMA</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;,&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L31</span><span style="color: #000000">:</span><span style="color: #098658">55</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;newline&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L31</span><span style="color: #000000">:</span><span style="color: #098658">57</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;)&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L31</span><span style="color: #000000">:</span><span style="color: #098658">64</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L31</span><span style="color: #000000">:</span><span style="color: #098658">65</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_CURLY_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;}&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L32</span><span style="color: #000000">:</span><span style="color: #098658">8</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">FOR</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;for&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L33</span><span style="color: #000000">:</span><span style="color: #098658">8</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;(&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L33</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;var&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L33</span><span style="color: #000000">:</span><span style="color: #098658">13</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;num&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L33</span><span style="color: #000000">:</span><span style="color: #098658">17</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">COLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;:&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L33</span><span style="color: #000000">:</span><span style="color: #098658">21</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;array&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L33</span><span style="color: #000000">:</span><span style="color: #098658">23</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;)&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L33</span><span style="color: #000000">:</span><span style="color: #098658">28</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_CURLY_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;{&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L33</span><span style="color: #000000">:</span><span style="color: #098658">30</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;var&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L34</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;coefficient&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L34</span><span style="color: #000000">:</span><span style="color: #098658">16</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L34</span><span style="color: #000000">:</span><span style="color: #098658">28</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;big&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L34</span><span style="color: #000000">:</span><span style="color: #098658">30</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">MULTIPLICATION</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;*&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L34</span><span style="color: #000000">:</span><span style="color: #098658">34</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;small&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L34</span><span style="color: #000000">:</span><span style="color: #098658">36</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">DIVISION</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;/&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L34</span><span style="color: #000000">:</span><span style="color: #098658">42</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;hex&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L34</span><span style="color: #000000">:</span><span style="color: #098658">44</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L34</span><span style="color: #000000">:</span><span style="color: #098658">47</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;println&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L35</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;(&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L35</span><span style="color: #000000">:</span><span style="color: #098658">19</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;message&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L35</span><span style="color: #000000">:</span><span style="color: #098658">20</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">COMMA</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;,&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L35</span><span style="color: #000000">:</span><span style="color: #098658">27</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;num&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L35</span><span style="color: #000000">:</span><span style="color: #098658">29</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">MULTIPLICATION</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;*&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L35</span><span style="color: #000000">:</span><span style="color: #098658">33</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;coefficient&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L35</span><span style="color: #000000">:</span><span style="color: #098658">35</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">COMMA</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;,&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L35</span><span style="color: #000000">:</span><span style="color: #098658">46</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;newline&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L35</span><span style="color: #000000">:</span><span style="color: #098658">48</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;)&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L35</span><span style="color: #000000">:</span><span style="color: #098658">55</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L35</span><span style="color: #000000">:</span><span style="color: #098658">56</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_CURLY_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;}&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L36</span><span style="color: #000000">:</span><span style="color: #098658">8</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;var&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L37</span><span style="color: #000000">:</span><span style="color: #098658">8</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;secret&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L37</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">ASSIGNMENT</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;=&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L37</span><span style="color: #000000">:</span><span style="color: #098658">19</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;hex&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L37</span><span style="color: #000000">:</span><span style="color: #098658">21</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">XOR</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;^&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L37</span><span style="color: #000000">:</span><span style="color: #098658">25</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;octal&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L37</span><span style="color: #000000">:</span><span style="color: #098658">27</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">XOR</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;^&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L37</span><span style="color: #000000">:</span><span style="color: #098658">33</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;binary&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L37</span><span style="color: #000000">:</span><span style="color: #098658">35</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L37</span><span style="color: #000000">:</span><span style="color: #098658">41</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IF</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;if&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L38</span><span style="color: #000000">:</span><span style="color: #098658">8</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;(&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L38</span><span style="color: #000000">:</span><span style="color: #098658">11</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;flag&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L38</span><span style="color: #000000">:</span><span style="color: #098658">12</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">AND</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;&amp;&amp;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L38</span><span style="color: #000000">:</span><span style="color: #098658">17</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;size&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L38</span><span style="color: #000000">:</span><span style="color: #098658">20</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OR</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;||&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L38</span><span style="color: #000000">:</span><span style="color: #098658">25</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;secret&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L38</span><span style="color: #000000">:</span><span style="color: #098658">28</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;)&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L38</span><span style="color: #000000">:</span><span style="color: #098658">34</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_CURLY_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;{&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L38</span><span style="color: #000000">:</span><span style="color: #098658">36</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;println&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L39</span><span style="color: #000000">:</span><span style="color: #098658">10</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;(&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L39</span><span style="color: #000000">:</span><span style="color: #098658">17</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;secret&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L39</span><span style="color: #000000">:</span><span style="color: #098658">18</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">XOR</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;^&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L39</span><span style="color: #000000">:</span><span style="color: #098658">25</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;flag&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L39</span><span style="color: #000000">:</span><span style="color: #098658">27</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;)&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L39</span><span style="color: #000000">:</span><span style="color: #098658">31</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L39</span><span style="color: #000000">:</span><span style="color: #098658">32</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_CURLY_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;}&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L40</span><span style="color: #000000">:</span><span style="color: #098658">8</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;println&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L41</span><span style="color: #000000">:</span><span style="color: #098658">8</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">OPENING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;(&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L41</span><span style="color: #000000">:</span><span style="color: #098658">15</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">IDENTIFIER</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;secret&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L41</span><span style="color: #000000">:</span><span style="color: #098658">16</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;)&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L41</span><span style="color: #000000">:</span><span style="color: #098658">22</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">SEMICOLON</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;;&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L41</span><span style="color: #000000">:</span><span style="color: #098658">23</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_CURLY_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;}&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L42</span><span style="color: #000000">:</span><span style="color: #098658">4</span><span style="color: #000000">]</span>
-<span style="color: #0070C1">CLOSING_CURLY_BRACE</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;}&#039;</span><span style="color: #000000"> [</span><span style="color: #0070C1">L43</span><span style="color: #000000">:</span><span style="color: #098658">0</span><span style="color: #000000">]</span><span style="color: #A31515">&quot;</span>
-</code></pre>
-		</div>
-		<div style="position:relative;"><a name="typedoc-main-index" class="tsd-anchor"></a></div>
 		<section class="tsd-panel-group tsd-index-group">
 			<h2>Index</h2>
 			<section class="tsd-panel tsd-index-panel">
 				<div class="tsd-index-content">
 					<section class="tsd-index-section ">
-						<h3>Modules</h3>
+						<h3>Enumeration members</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-module"><a href="modules/analyzerexception.html" class="tsd-kind-icon">Analyzer<wbr>Exception</a></li>
-							<li class="tsd-kind-module"><a href="modules/closable.html" class="tsd-kind-icon">Closable</a></li>
-							<li class="tsd-kind-module"><a href="modules/lexer.html" class="tsd-kind-icon">Lexer</a></li>
-							<li class="tsd-kind-module"><a href="modules/lexertoken.html" class="tsd-kind-icon">Lexer<wbr>Token</a></li>
-							<li class="tsd-kind-module"><a href="modules/nullable.html" class="tsd-kind-icon">Nullable</a></li>
-							<li class="tsd-kind-module"><a href="modules/scanner.html" class="tsd-kind-icon">Scanner</a></li>
-							<li class="tsd-kind-module"><a href="modules/token.html" class="tsd-kind-icon">Token</a></li>
-							<li class="tsd-kind-module"><a href="modules/tokentype.html" class="tsd-kind-icon">Token<wbr>Type</a></li>
-							<li class="tsd-kind-module"><a href="modules/wordstate.html" class="tsd-kind-icon">Word<wbr>State</a></li>
-							<li class="tsd-kind-module"><a href="modules/index.html" class="tsd-kind-icon">index</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#addition" class="tsd-kind-icon">ADDITION</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#and" class="tsd-kind-icon">AND</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#assignment" class="tsd-kind-icon">ASSIGNMENT</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#binary_literal" class="tsd-kind-icon">BINARY_<wbr>LITERAL</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#block_comment" class="tsd-kind-icon">BLOCK_<wbr>COMMENT</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#block_comment_unterminated" class="tsd-kind-icon">BLOCK_<wbr>COMMENT_<wbr>UNTERMINATED</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#boolean" class="tsd-kind-icon">BOOLEAN</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#char" class="tsd-kind-icon">CHAR</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#char_literal" class="tsd-kind-icon">CHAR_<wbr>LITERAL</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#class" class="tsd-kind-icon">CLASS</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#closing_brace" class="tsd-kind-icon">CLOSING_<wbr>BRACE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#closing_curly_brace" class="tsd-kind-icon">CLOSING_<wbr>CURLY_<wbr>BRACE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#closing_square_brace" class="tsd-kind-icon">CLOSING_<wbr>SQUARE_<wbr>BRACE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#colon" class="tsd-kind-icon">COLON</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#comma" class="tsd-kind-icon">COMMA</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#division" class="tsd-kind-icon">DIVISION</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#double" class="tsd-kind-icon">DOUBLE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#double_literal" class="tsd-kind-icon">DOUBLE_<wbr>LITERAL</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#else" class="tsd-kind-icon">ELSE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#equals" class="tsd-kind-icon">EQUALS</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#false" class="tsd-kind-icon">FALSE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#final" class="tsd-kind-icon">FINAL</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#for" class="tsd-kind-icon">FOR</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#hex_literal" class="tsd-kind-icon">HEX_<wbr>LITERAL</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#identifier" class="tsd-kind-icon">IDENTIFIER</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#if" class="tsd-kind-icon">IF</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#int" class="tsd-kind-icon">INT</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#int_literal" class="tsd-kind-icon">INT_<wbr>LITERAL</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#less" class="tsd-kind-icon">LESS</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#line_comment" class="tsd-kind-icon">LINE_<wbr>COMMENT</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#more" class="tsd-kind-icon">MORE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#multiline_string_literal" class="tsd-kind-icon">MULTILINE_<wbr>STRING_<wbr>LITERAL</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#multiplication" class="tsd-kind-icon">MULTIPLICATION</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#new" class="tsd-kind-icon">NEW</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#new_line" class="tsd-kind-icon">NEW_<wbr>LINE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#not_equals" class="tsd-kind-icon">NOT_<wbr>EQUALS</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#null" class="tsd-kind-icon">NULL</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#octal_literal" class="tsd-kind-icon">OCTAL_<wbr>LITERAL</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#opening_brace" class="tsd-kind-icon">OPENING_<wbr>BRACE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#opening_curly_brace" class="tsd-kind-icon">OPENING_<wbr>CURLY_<wbr>BRACE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#opening_square_brace" class="tsd-kind-icon">OPENING_<wbr>SQUARE_<wbr>BRACE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#or" class="tsd-kind-icon">OR</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#point" class="tsd-kind-icon">POINT</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#private" class="tsd-kind-icon">PRIVATE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#public" class="tsd-kind-icon">PUBLIC</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#return" class="tsd-kind-icon">RETURN</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#scientific_literal" class="tsd-kind-icon">SCIENTIFIC_<wbr>LITERAL</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#semicolon" class="tsd-kind-icon">SEMICOLON</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#static" class="tsd-kind-icon">STATIC</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#string" class="tsd-kind-icon">STRING</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#string_literal" class="tsd-kind-icon">STRING_<wbr>LITERAL</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#subtraction" class="tsd-kind-icon">SUBTRACTION</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#tab" class="tsd-kind-icon">TAB</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#true" class="tsd-kind-icon">TRUE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#var" class="tsd-kind-icon">VAR</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#void" class="tsd-kind-icon">VOID</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#while" class="tsd-kind-icon">WHILE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#white_space" class="tsd-kind-icon">WHITE_<wbr>SPACE</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="tokentype.tokentype-1.html#xor" class="tsd-kind-icon">XOR</a></li>
 						</ul>
 					</section>
 				</div>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group ">
+			<h2>Enumeration members</h2>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="addition" class="tsd-anchor"></a>
+				<h3>ADDITION</h3>
+				<div class="tsd-signature tsd-kind-icon">ADDITION<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;ADDITION&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L19">src/TokenType.ts:19</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="and" class="tsd-anchor"></a>
+				<h3>AND</h3>
+				<div class="tsd-signature tsd-kind-icon">AND<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;AND&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L30">src/TokenType.ts:30</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="assignment" class="tsd-anchor"></a>
+				<h3>ASSIGNMENT</h3>
+				<div class="tsd-signature tsd-kind-icon">ASSIGNMENT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;ASSIGNMENT&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L27">src/TokenType.ts:27</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="binary_literal" class="tsd-anchor"></a>
+				<h3>BINARY_<wbr>LITERAL</h3>
+				<div class="tsd-signature tsd-kind-icon">BINARY_<wbr>LITERAL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;BINARY_LITERAL&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L18">src/TokenType.ts:18</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="block_comment" class="tsd-anchor"></a>
+				<h3>BLOCK_<wbr>COMMENT</h3>
+				<div class="tsd-signature tsd-kind-icon">BLOCK_<wbr>COMMENT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;BLOCK_COMMENT&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L2">src/TokenType.ts:2</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="block_comment_unterminated" class="tsd-anchor"></a>
+				<h3>BLOCK_<wbr>COMMENT_<wbr>UNTERMINATED</h3>
+				<div class="tsd-signature tsd-kind-icon">BLOCK_<wbr>COMMENT_<wbr>UNTERMINATED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;BLOCK_COMMENT_UNTERMINATED&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L3">src/TokenType.ts:3</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="boolean" class="tsd-anchor"></a>
+				<h3>BOOLEAN</h3>
+				<div class="tsd-signature tsd-kind-icon">BOOLEAN<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;BOOLEAN&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L40">src/TokenType.ts:40</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="char" class="tsd-anchor"></a>
+				<h3>CHAR</h3>
+				<div class="tsd-signature tsd-kind-icon">CHAR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;CHAR&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L36">src/TokenType.ts:36</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="char_literal" class="tsd-anchor"></a>
+				<h3>CHAR_<wbr>LITERAL</h3>
+				<div class="tsd-signature tsd-kind-icon">CHAR_<wbr>LITERAL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;CHAR_LITERAL&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L62">src/TokenType.ts:62</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="class" class="tsd-anchor"></a>
+				<h3>CLASS</h3>
+				<div class="tsd-signature tsd-kind-icon">CLASS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;CLASS&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L47">src/TokenType.ts:47</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="closing_brace" class="tsd-anchor"></a>
+				<h3>CLOSING_<wbr>BRACE</h3>
+				<div class="tsd-signature tsd-kind-icon">CLOSING_<wbr>BRACE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;CLOSING_BRACE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L8">src/TokenType.ts:8</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="closing_curly_brace" class="tsd-anchor"></a>
+				<h3>CLOSING_<wbr>CURLY_<wbr>BRACE</h3>
+				<div class="tsd-signature tsd-kind-icon">CLOSING_<wbr>CURLY_<wbr>BRACE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;CLOSING_CURLY_BRACE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L11">src/TokenType.ts:11</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="closing_square_brace" class="tsd-anchor"></a>
+				<h3>CLOSING_<wbr>SQUARE_<wbr>BRACE</h3>
+				<div class="tsd-signature tsd-kind-icon">CLOSING_<wbr>SQUARE_<wbr>BRACE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;CLOSING_SQUARE_BRACE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L57">src/TokenType.ts:57</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="colon" class="tsd-anchor"></a>
+				<h3>COLON</h3>
+				<div class="tsd-signature tsd-kind-icon">COLON<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;COLON&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L53">src/TokenType.ts:53</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="comma" class="tsd-anchor"></a>
+				<h3>COMMA</h3>
+				<div class="tsd-signature tsd-kind-icon">COMMA<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;COMMA&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L54">src/TokenType.ts:54</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="division" class="tsd-anchor"></a>
+				<h3>DIVISION</h3>
+				<div class="tsd-signature tsd-kind-icon">DIVISION<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;DIVISION&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L22">src/TokenType.ts:22</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="double" class="tsd-anchor"></a>
+				<h3>DOUBLE</h3>
+				<div class="tsd-signature tsd-kind-icon">DOUBLE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;DOUBLE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L38">src/TokenType.ts:38</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="double_literal" class="tsd-anchor"></a>
+				<h3>DOUBLE_<wbr>LITERAL</h3>
+				<div class="tsd-signature tsd-kind-icon">DOUBLE_<wbr>LITERAL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;DOUBLE_LITERAL&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L14">src/TokenType.ts:14</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="else" class="tsd-anchor"></a>
+				<h3>ELSE</h3>
+				<div class="tsd-signature tsd-kind-icon">ELSE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;ELSE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L51">src/TokenType.ts:51</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="equals" class="tsd-anchor"></a>
+				<h3>EQUALS</h3>
+				<div class="tsd-signature tsd-kind-icon">EQUALS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;EQUALS&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L25">src/TokenType.ts:25</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="false" class="tsd-anchor"></a>
+				<h3>FALSE</h3>
+				<div class="tsd-signature tsd-kind-icon">FALSE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;FALSE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L42">src/TokenType.ts:42</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="final" class="tsd-anchor"></a>
+				<h3>FINAL</h3>
+				<div class="tsd-signature tsd-kind-icon">FINAL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;FINAL&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L59">src/TokenType.ts:59</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="for" class="tsd-anchor"></a>
+				<h3>FOR</h3>
+				<div class="tsd-signature tsd-kind-icon">FOR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;FOR&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L50">src/TokenType.ts:50</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="hex_literal" class="tsd-anchor"></a>
+				<h3>HEX_<wbr>LITERAL</h3>
+				<div class="tsd-signature tsd-kind-icon">HEX_<wbr>LITERAL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;HEX_LITERAL&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L17">src/TokenType.ts:17</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="identifier" class="tsd-anchor"></a>
+				<h3>IDENTIFIER</h3>
+				<div class="tsd-signature tsd-kind-icon">IDENTIFIER<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;IDENTIFIER&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L55">src/TokenType.ts:55</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="if" class="tsd-anchor"></a>
+				<h3>IF</h3>
+				<div class="tsd-signature tsd-kind-icon">IF<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;IF&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L48">src/TokenType.ts:48</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="int" class="tsd-anchor"></a>
+				<h3>INT</h3>
+				<div class="tsd-signature tsd-kind-icon">INT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;INT&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L35">src/TokenType.ts:35</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="int_literal" class="tsd-anchor"></a>
+				<h3>INT_<wbr>LITERAL</h3>
+				<div class="tsd-signature tsd-kind-icon">INT_<wbr>LITERAL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;INT_LITERAL&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L16">src/TokenType.ts:16</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="less" class="tsd-anchor"></a>
+				<h3>LESS</h3>
+				<div class="tsd-signature tsd-kind-icon">LESS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;LESS&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L29">src/TokenType.ts:29</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="line_comment" class="tsd-anchor"></a>
+				<h3>LINE_<wbr>COMMENT</h3>
+				<div class="tsd-signature tsd-kind-icon">LINE_<wbr>COMMENT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;LINE_COMMENT&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L4">src/TokenType.ts:4</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="more" class="tsd-anchor"></a>
+				<h3>MORE</h3>
+				<div class="tsd-signature tsd-kind-icon">MORE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;MORE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L28">src/TokenType.ts:28</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="multiline_string_literal" class="tsd-anchor"></a>
+				<h3>MULTILINE_<wbr>STRING_<wbr>LITERAL</h3>
+				<div class="tsd-signature tsd-kind-icon">MULTILINE_<wbr>STRING_<wbr>LITERAL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;MULTILINE_STRING_LITERAL&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L60">src/TokenType.ts:60</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="multiplication" class="tsd-anchor"></a>
+				<h3>MULTIPLICATION</h3>
+				<div class="tsd-signature tsd-kind-icon">MULTIPLICATION<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;MULTIPLICATION&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L21">src/TokenType.ts:21</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="new" class="tsd-anchor"></a>
+				<h3>NEW</h3>
+				<div class="tsd-signature tsd-kind-icon">NEW<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;NEW&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L46">src/TokenType.ts:46</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="new_line" class="tsd-anchor"></a>
+				<h3>NEW_<wbr>LINE</h3>
+				<div class="tsd-signature tsd-kind-icon">NEW_<wbr>LINE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;NEW_LINE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L7">src/TokenType.ts:7</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="not_equals" class="tsd-anchor"></a>
+				<h3>NOT_<wbr>EQUALS</h3>
+				<div class="tsd-signature tsd-kind-icon">NOT_<wbr>EQUALS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;NOT_EQUALS&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L26">src/TokenType.ts:26</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="null" class="tsd-anchor"></a>
+				<h3>NULL</h3>
+				<div class="tsd-signature tsd-kind-icon">NULL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;NULL&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L44">src/TokenType.ts:44</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="octal_literal" class="tsd-anchor"></a>
+				<h3>OCTAL_<wbr>LITERAL</h3>
+				<div class="tsd-signature tsd-kind-icon">OCTAL_<wbr>LITERAL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;OCTAL_LITERAL&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L13">src/TokenType.ts:13</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="opening_brace" class="tsd-anchor"></a>
+				<h3>OPENING_<wbr>BRACE</h3>
+				<div class="tsd-signature tsd-kind-icon">OPENING_<wbr>BRACE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;OPENING_BRACE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L9">src/TokenType.ts:9</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="opening_curly_brace" class="tsd-anchor"></a>
+				<h3>OPENING_<wbr>CURLY_<wbr>BRACE</h3>
+				<div class="tsd-signature tsd-kind-icon">OPENING_<wbr>CURLY_<wbr>BRACE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;OPENING_CURLY_BRACE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L10">src/TokenType.ts:10</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="opening_square_brace" class="tsd-anchor"></a>
+				<h3>OPENING_<wbr>SQUARE_<wbr>BRACE</h3>
+				<div class="tsd-signature tsd-kind-icon">OPENING_<wbr>SQUARE_<wbr>BRACE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;OPENING_SQUARE_BRACE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L56">src/TokenType.ts:56</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="or" class="tsd-anchor"></a>
+				<h3>OR</h3>
+				<div class="tsd-signature tsd-kind-icon">OR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;OR&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L31">src/TokenType.ts:31</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="point" class="tsd-anchor"></a>
+				<h3>POINT</h3>
+				<div class="tsd-signature tsd-kind-icon">POINT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;POINT&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L24">src/TokenType.ts:24</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="private" class="tsd-anchor"></a>
+				<h3>PRIVATE</h3>
+				<div class="tsd-signature tsd-kind-icon">PRIVATE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;PRIVATE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L34">src/TokenType.ts:34</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="public" class="tsd-anchor"></a>
+				<h3>PUBLIC</h3>
+				<div class="tsd-signature tsd-kind-icon">PUBLIC<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;PUBLIC&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L33">src/TokenType.ts:33</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="return" class="tsd-anchor"></a>
+				<h3>RETURN</h3>
+				<div class="tsd-signature tsd-kind-icon">RETURN<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;RETURN&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L45">src/TokenType.ts:45</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="scientific_literal" class="tsd-anchor"></a>
+				<h3>SCIENTIFIC_<wbr>LITERAL</h3>
+				<div class="tsd-signature tsd-kind-icon">SCIENTIFIC_<wbr>LITERAL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;SCIENTIFIC_LITERAL&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L12">src/TokenType.ts:12</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="semicolon" class="tsd-anchor"></a>
+				<h3>SEMICOLON</h3>
+				<div class="tsd-signature tsd-kind-icon">SEMICOLON<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;SEMICOLON&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L52">src/TokenType.ts:52</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="static" class="tsd-anchor"></a>
+				<h3>STATIC</h3>
+				<div class="tsd-signature tsd-kind-icon">STATIC<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;STATIC&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L32">src/TokenType.ts:32</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="string" class="tsd-anchor"></a>
+				<h3>STRING</h3>
+				<div class="tsd-signature tsd-kind-icon">STRING<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;STRING&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L37">src/TokenType.ts:37</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="string_literal" class="tsd-anchor"></a>
+				<h3>STRING_<wbr>LITERAL</h3>
+				<div class="tsd-signature tsd-kind-icon">STRING_<wbr>LITERAL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;STRING_LITERAL&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L61">src/TokenType.ts:61</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="subtraction" class="tsd-anchor"></a>
+				<h3>SUBTRACTION</h3>
+				<div class="tsd-signature tsd-kind-icon">SUBTRACTION<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;SUBTRACTION&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L20">src/TokenType.ts:20</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="tab" class="tsd-anchor"></a>
+				<h3>TAB</h3>
+				<div class="tsd-signature tsd-kind-icon">TAB<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;TAB&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L6">src/TokenType.ts:6</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="true" class="tsd-anchor"></a>
+				<h3>TRUE</h3>
+				<div class="tsd-signature tsd-kind-icon">TRUE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;TRUE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L43">src/TokenType.ts:43</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="var" class="tsd-anchor"></a>
+				<h3>VAR</h3>
+				<div class="tsd-signature tsd-kind-icon">VAR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;VAR&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L58">src/TokenType.ts:58</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="void" class="tsd-anchor"></a>
+				<h3>VOID</h3>
+				<div class="tsd-signature tsd-kind-icon">VOID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;VOID&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L41">src/TokenType.ts:41</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="while" class="tsd-anchor"></a>
+				<h3>WHILE</h3>
+				<div class="tsd-signature tsd-kind-icon">WHILE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;WHILE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L49">src/TokenType.ts:49</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="white_space" class="tsd-anchor"></a>
+				<h3>WHITE_<wbr>SPACE</h3>
+				<div class="tsd-signature tsd-kind-icon">WHITE_<wbr>SPACE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;WHITE_SPACE&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L5">src/TokenType.ts:5</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="xor" class="tsd-anchor"></a>
+				<h3>XOR</h3>
+				<div class="tsd-signature tsd-kind-icon">XOR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;XOR&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/DavidArutiunian/lexer4js/blob/f841fc3/src/TokenType.ts#L23">src/TokenType.ts:23</a></li>
+					</ul>
+				</aside>
 			</section>
 		</section>
 		<footer class="with-border-bottom">

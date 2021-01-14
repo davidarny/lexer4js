@@ -1,11 +1,11 @@
-import { AnalyzerException } from "./AnalyzerException";
+import AnalyzerException from "./AnalyzerException";
 import LexerToken from "./LexerToken";
 import Nullable from "./Nullable";
 import LineScanner from "./Scanner";
 import Token from "./Token";
 import TokenType from "./TokenType";
 
-export default class Lexer {
+export class Lexer {
   // Order matters! 😰
   private regex: Record<TokenType, string> = {
     [TokenType.BLOCK_COMMENT]: "(/\\*.*?\\*/).*",
@@ -131,3 +131,5 @@ export default class Lexer {
     return pos;
   }
 }
+
+export default Lexer;

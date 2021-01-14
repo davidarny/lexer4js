@@ -25,7 +25,7 @@ interface FactoryReturnType {
   reset(): void;
 }
 
-export default function WordStateFactory(): FactoryReturnType {
+export function WordStateFactory(): FactoryReturnType {
   const WORD_LIMIT = 5;
 
   let whitespaces = 0;
@@ -117,3 +117,5 @@ export default function WordStateFactory(): FactoryReturnType {
     reset,
   };
 }
+
+export default WordStateFactory;

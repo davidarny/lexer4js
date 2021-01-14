@@ -1,8 +1,10 @@
 import TokenType from "./TokenType";
 
-export default interface Token {
+export interface Token {
   literal: string;
   type: TokenType;
   line: number;
   position: number;
 }
+
+export default Token;

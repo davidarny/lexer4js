@@ -61,3 +61,5 @@ export class AnalyzerException extends Error {
     return index;
   }
 }
+
+export default AnalyzerException;

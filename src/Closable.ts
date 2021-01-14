@@ -1,3 +1,5 @@
-export default interface Closable {
+export interface Closable {
   close(): void;
 }
+
+export default Closable;

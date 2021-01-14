@@ -1,4 +1,4 @@
-export default class LineScanner {
+export class LineScanner {
   private position = 0;
   private lines: string[] = [];
 
@@ -14,3 +14,5 @@ export default class LineScanner {
     return this.lines[this.position++];
   }
 }
+
+export default LineScanner;
