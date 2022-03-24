@@ -36,7 +36,7 @@
     "test:ci": "jest --coverage --ci"
   },
   "dependencies": {
-    "chalk": "^4.1.0"
+    "chalk": "^5.0.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.23",
